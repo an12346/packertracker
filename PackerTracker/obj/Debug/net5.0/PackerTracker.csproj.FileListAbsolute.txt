@@ -64,3 +64,4 @@
 /Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/obj/Debug/net5.0/PackerTracker.pdb
 /Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/obj/Debug/net5.0/PackerTracker.genruntimeconfig.cache
 /Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/obj/Debug/net5.0/PackerTracker.csproj.CopyComplete
+/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/obj/Debug/net5.0/Razor/Views/Items/Edit.cshtml.g.cs

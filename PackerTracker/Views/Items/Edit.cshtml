@@ -1,0 +1,19 @@
+
+<h2>@Model.Description</h2>
+<form action="/items/@Model.Id" method="post">
+  <ul>
+    <li>
+      <input type="checkbox" id="purchased" name="purchased" value="true">
+      <label for="purchased">Purchased</label>
+    </li>
+    <li>
+      <input type="checkbox" id="packed" name="packed" value="true">
+      <label for="packed">Packed</label>
+    </li>
+    <li>
+      <input type="checkbox" id="bagchecked" name="bagchecked" value="true">
+      <label for="bagchecked">Bag Checked</label>
+    </li>
+    <button type="submit">Submit</button>
+  </ul>
+</form>

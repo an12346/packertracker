@@ -23,16 +23,17 @@
     }
   </li>
   <li>
-    @if(Model.Checked == true)
+    @if(Model.BagChecked == true)
     {
-      <p>Checked</p>
+      <p>Bag Checked</p>
     }
     else
     {
-      <p>Not Checked</p>
+      <p>Bag Not Checked</p>
     }
   </li>
 </ul>
 
 <a href="/items/new">Add another item</a>
 <a href="/items">View all items</a>
+<a href="/items/@Model.Id/edit">Edit this item</a>

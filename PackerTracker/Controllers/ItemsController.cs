@@ -38,5 +38,43 @@ namespace PackerTracker.Controllers
       Item foundItem = Item.Find(id);
       return View(foundItem);
     }
+
+    [HttpGet("/items/{id}/edit")]
+    public ActionResult Edit(int id)
+    {
+      Item editItem = Item.Find(id);
+      return View(editItem);
+    }
+
+    [HttpPost("/items/{id}")]
+    public ActionResult Update(int id, bool purchased = false, bool packed = false, bool bagchecked = false)
+    {
+      Item updateItem = Item.Find(id);
+      if (purchased)
+      {
+        updateItem.Purchased = true;
+      }
+      else 
+      {
+        updateItem.Purchased = false;
+      }
+      if (packed)
+      {
+        updateItem.Packed = true;
+      }
+      else 
+      {
+        updateItem.Packed = false;
+      }
+      if (bagchecked)
+      {
+        updateItem.BagChecked = true;
+      }
+      else 
+      {
+        updateItem.BagChecked = false;
+      }
+      return RedirectToAction("Show", new { id = id } );
+    }
   }
 }

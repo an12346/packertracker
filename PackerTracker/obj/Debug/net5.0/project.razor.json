@@ -15634,6 +15634,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/Views/Items/Edit.cshtml",
+      "TargetPath": "Views\\Items\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/Views/Items/New.cshtml",
       "TargetPath": "Views\\Items\\New.cshtml",
       "FileKind": "mvc"

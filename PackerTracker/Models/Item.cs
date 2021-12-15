@@ -22,7 +22,7 @@ namespace PackerTracker.Models
     public string Description { get; set; }
     public bool Purchased { get; set; }
     public bool Packed { get; set; }
-    public bool Checked { get; set; }
+    public bool BagChecked { get; set; }
     public int Id { get; }
     public bool Removed { get; set; }
 
@@ -36,7 +36,7 @@ namespace PackerTracker.Models
 
       Purchased = false;
       Packed = false;
-      Checked = false;
+      BagChecked = false;
     }
 
     public static List<Item> GetAll()
