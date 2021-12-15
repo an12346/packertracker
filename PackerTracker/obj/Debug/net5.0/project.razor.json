@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/annapittman/packertracker/PackerTracker/PackerTracker.csproj",
+  "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/PackerTracker.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,22 +15619,22 @@
   "RootNamespace": "PackerTracker",
   "Documents": [
     {
-      "FilePath": "/Users/annapittman/packertracker/PackerTracker/Views/Items/Index.cshtml",
-      "TargetPath": "Views\\Items\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/annapittman/packertracker/PackerTracker/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/annapittman/packertracker/PackerTracker/Views/Items/Show.cshtml",
+      "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/Views/Items/Show.cshtml",
       "TargetPath": "Views\\Items\\Show.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/annapittman/packertracker/PackerTracker/Views/Items/New.cshtml",
+      "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/Views/Items/Index.cshtml",
+      "TargetPath": "Views\\Items\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/Views/Items/New.cshtml",
       "TargetPath": "Views\\Items\\New.cshtml",
       "FileKind": "mvc"
     }

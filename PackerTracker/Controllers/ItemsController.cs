@@ -36,6 +36,7 @@ namespace PackerTracker.Controllers
     public ActionResult Show(int id)
     {
       Item foundItem = Item.Find(id);
+      return View(foundItem);
     }
   }
 }
