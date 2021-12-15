@@ -1,0 +1,38 @@
+<h1>Packing List Item Details:</h1>
+
+<h2>@Model.Description</h2>
+<ul>
+  <li>
+    @if(Model.Purchased == true)
+    {
+      <p>Purchased</p>
+    }
+    else
+    {
+      <p>Not Purchased</p>
+    }
+  </li>
+  <li>
+    @if(Model.Packed == true)
+    {
+      <p>Packed</p>
+    }
+    else
+    {
+      <p>Not Packed</p>
+    }
+  </li>
+  <li>
+    @if(Model.Checked == true)
+    {
+      <p>Checked</p>
+    }
+    else
+    {
+      <p>Not Checked</p>
+    }
+  </li>
+</ul>
+
+<a href="/items/new">Add another item</a>
+<a href="/items">View all items</a>

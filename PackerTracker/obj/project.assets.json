@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/annapittman/.nuget/packages/": {}
+    "/Users/curtisbrooks/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/annapittman/packertracker/PackerTracker/PackerTracker.csproj",
+      "projectUniqueName": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/PackerTracker.csproj",
       "projectName": "PackerTracker",
-      "projectPath": "/Users/annapittman/packertracker/PackerTracker/PackerTracker.csproj",
-      "packagesPath": "/Users/annapittman/.nuget/packages/",
-      "outputPath": "/Users/annapittman/packertracker/PackerTracker/obj/",
+      "projectPath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/PackerTracker.csproj",
+      "packagesPath": "/Users/curtisbrooks/.nuget/packages/",
+      "outputPath": "/Users/curtisbrooks/Desktop/Epicodus/packertracker/PackerTracker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/annapittman/.nuget/NuGet/NuGet.Config"
+        "/Users/curtisbrooks/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
